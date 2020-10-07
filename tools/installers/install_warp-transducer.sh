@@ -14,7 +14,7 @@ if python3 -c 'import torch as t;assert t.__version__[0] == "1"' &> /dev/null; t
 fi
 
 rm -rf warp-transducer
-git clone https://github.com/HawkAaron/warp-transducer.git
+git clone https://github.com/qianlanwyd/warp-transducer.git
 
 (
     set -euo pipefail

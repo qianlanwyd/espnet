@@ -178,7 +178,7 @@ pyopenjtalk.done: espnet.done conda_packages.done
 	touch pyopenjtalk.done
 
 moses.done:
-	git clone --depth 1 https://github.com/moses-smt/mosesdecoder.git moses
+	git clone --depth 1 https://github.com/qianlanwyd/mosesdecoder.git moses
 	touch moses.done
 
 mwerSegmenter.done:

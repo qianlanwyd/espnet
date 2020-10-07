@@ -23,7 +23,7 @@ if python3 -c 'import torch as t;assert t.__version__[0] >= "1.0"' &> /dev/null;
 fi
 
 rm -rf warp-rnnt
-git clone https://github.com/1ytic/warp-rnnt
+git clone https://github.com/qianlanwyd/warp-rnnt
 
 (
     set -euo pipefail

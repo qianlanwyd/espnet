@@ -7,7 +7,7 @@ if [ $# != 0 ]; then
 fi
 
 rm -rf chainer_ctc
-git clone https://github.com/jheymann85/chainer_ctc.git
+git clone https://github.com/qianlanwyd/chainer_ctc.git
 python3 -m pip install cython
 (
     set -euo pipefail

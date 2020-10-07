@@ -84,7 +84,7 @@ elif "${torch_10_plus}"; then
 else
 
     rm -rf warp-ctc
-    git clone https://github.com/espnet/warp-ctc.git
+    git clone https://github.com/qianlanwyd/warp-ctc.git
     (
         set -euo pipefail
 

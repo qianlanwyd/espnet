@@ -7,7 +7,7 @@ if [ $# != 0 ]; then
 fi
 
 rm -rf kenlm
-git clone https://github.com/kpu/kenlm.git
+git clone https://github.com/qianlanwyd/kenlm.git
 (
     set -euo pipefail
     cd kenlm

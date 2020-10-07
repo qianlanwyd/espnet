@@ -10,7 +10,7 @@ fi
 # Install hts_engine_API
 if [ ! -e hts_engine_API.done ]; then
     rm -rf hts_engine_API
-    git clone https://github.com/r9y9/hts_engine_API.git
+    git clone https://github.com/qianlanwyd/hts_engine_API.git
     (
         set -euo pipefail
         cd hts_engine_API/src && ./waf configure --prefix=../../ && ./waf build install
@@ -23,7 +23,7 @@ fi
 # Install open_jtalk
 if [ ! -e open_jtalk.done ]; then
     rm -rf open_jtalk
-    git clone https://github.com/r9y9/open_jtalk.git
+    git clone https://github.com/qianlanwyd/open_jtalk.git
     mkdir -p open_jtalk/src/build
     (
         set -euo pipefail
@@ -37,7 +37,7 @@ fi
 # Install pyopenjtalk
 if [ ! -e pyopenjtalk.done ]; then
     rm -rf pyopenjtalk
-    git clone https://github.com/r9y9/pyopenjtalk.git
+    git clone https://github.com/qianlanwyd/pyopenjtalk.git
     (
         set -euo pipefail
         cd pyopenjtalk && OPEN_JTALK_INSTALL_PREFIX=$(pwd)/../ python3 -m pip install -e .

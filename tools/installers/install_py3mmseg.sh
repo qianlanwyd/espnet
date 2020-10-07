@@ -9,5 +9,5 @@ fi
 
 
 rm -rf py3mmseg
-git clone https://github.com/kamo-naoyuki/py3mmseg
+git clone https://github.com/qianlanwyd/py3mmseg
 python3 -m pip install py3mmseg/
